@@ -1,0 +1,32 @@
+{
+  "name": "truffle-coverage-plugin",
+  "version": "0.1.10",
+  "description": "This is a plug in for Truffle that will execute code coverage tests from Truffle and display the results the user.",
+  "main": "solcoverage.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caleteeter/trufflecover.git"
+  },
+  "keywords": [
+    "testing",
+    "codecoveage",
+    "truffle"
+  ],
+  "author": "Cale Teeter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caleteeter/trufflecover/issues"
+  },
+  "homepage": "https://github.com/caleteeter/trufflecover#readme",
+  "dependencies": {
+    "solidity-coverage": "^0.6.4",
+    "open": "^6.4.0"
+  },
+  "bundleDependencies": [
+    "solidity-coverage",
+    "open"
+  ]
+}
